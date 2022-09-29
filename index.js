@@ -10,7 +10,7 @@ app.use(express.json());
 
 mongoose
   .connect(
-    "mongodb+srv://umidjon:umidjon1332@cluster0.krmqfn4.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://Zhadyra:itisNew123!@cluster0.elmleep.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() =>
     app.listen(process.env.PORT || 1337, () => {
